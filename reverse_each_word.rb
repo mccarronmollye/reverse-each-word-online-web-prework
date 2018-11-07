@@ -1,6 +1,6 @@
-friendly_array = "Hello there, and how are you?"
 
 def reverse_each_word(friendly_reverse_array)
+  friendly_array = "Hello there, and how are you?"
   friendly_reverse_array = friendly_array.split
   friendly_reverse_array.collect do |word|
     word.reverse
